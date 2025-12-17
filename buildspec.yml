@@ -10,8 +10,8 @@ phases:
       - npm install
   build:
     commands:
-      - echo Build error simulation #빌드 강제로 오류나게해서 종료하게
-      - exit 1
+      #- echo Build error simulation #빌드 강제로 오류나게해서 종료하게
+      #- exit 1
       - ng build -c production
       - echo "Build completed."
     finally:
